@@ -8,3 +8,4 @@ def sort_list(myList):
         i+1 = i
         i = temp
     i += 1
+  return myList

@@ -6,9 +6,9 @@ def sort_list(myList):
     while i < len(list):
         while n <len(list):
             if i > n:
-                temp = n
-                n = i
-                i = temp
+                temp = list[n]
+                list[n] = list[i]
+                list[i] = temp
             n+=1
         i+=1
     return list

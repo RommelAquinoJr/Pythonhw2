@@ -6,3 +6,4 @@ def calculate_time(func):
   time.sleep(1)
   end = time.time()
   print(f'Total time {end - start}')
+calculate_time(func)

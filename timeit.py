@@ -6,7 +6,7 @@ def calculate_time(func):
     func
     end = time.time()
     print(f'Total time {end - start}')
-  return wrappedFunc()
+  return wrappedFunc
 
 def foo():
   print("Total time")

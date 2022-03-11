@@ -5,7 +5,7 @@ def sort_list(myList):
     i = 1
     j = 0
     while i < n:
-        while j <= n-i-1:
+        while j < n-i-1:
             if list[j] > list[j+1]:
                 temp = list[j]
                 list[j] = list[j+1]

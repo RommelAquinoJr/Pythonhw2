@@ -2,7 +2,7 @@ def sort_list(myList):
     list = []
     list.extend(myList)
     n = len(list)
-    i = 0
+    i = 1
     j = 0
     while i < n-1:
         while j < n-i-1:

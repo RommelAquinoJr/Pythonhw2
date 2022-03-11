@@ -5,10 +5,10 @@ def sort_list(myList):
     j = 1
     while i < n - 1:
         while j < n:
-            if list[i] > list[n]:
+            if list[i] > list[j]:
                 temp = list[i]
-                list[i] = list[n]
-                lst[n] = temp
+                list[i] = list[j]
+                lst[j] = temp
             j+=1
         i+=1
     return list

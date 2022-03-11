@@ -5,8 +5,9 @@ def calculate_time(func):
   func
   time.sleep(1)
   end = time.time()
-  #print(f'Total time {end - start}')
-
+  print(f'Total time {end - start}')
+'''
 def timer()
   print f'Total time '
 timer = calculate_time(timer)
+'''

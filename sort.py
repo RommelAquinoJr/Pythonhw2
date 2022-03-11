@@ -1,4 +1,7 @@
-def sort_list(myList):'''
+def sort_list(myList):
+    list = []
+    return list
+    '''
     list = []
     n = len(list)
     i = 0
@@ -12,4 +15,3 @@ def sort_list(myList):'''
             j+=1
         i+=1
     return list'''
-    return list

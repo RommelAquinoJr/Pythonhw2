@@ -1,4 +1,4 @@
-def sort_list(list):
+def sort_list(myList):
     list = []
     list.extend(myList)
     i = 0

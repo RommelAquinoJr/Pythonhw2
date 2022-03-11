@@ -1,1 +1,4 @@
-def func_counter():
+def func_counter(func):
+  
+  def counter():
+    

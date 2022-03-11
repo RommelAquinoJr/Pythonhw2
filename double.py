@@ -1,4 +1,4 @@
-def twice(func):
+def doubler(func):
    def wrapper_double():
       func()
       func()

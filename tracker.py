@@ -5,4 +5,4 @@ def func_counter(func):
     counter.count +=1
     
   counter.count = 0
-  return counter
+  return func_counter

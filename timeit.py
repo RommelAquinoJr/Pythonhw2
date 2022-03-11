@@ -8,4 +8,4 @@ def calculate_time(func):
     print(f'Total time {end - start}')
   return wrappedFunc
 
-calculate_time(func)
+calculate_time()

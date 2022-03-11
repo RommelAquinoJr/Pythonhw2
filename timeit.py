@@ -7,5 +7,5 @@ def calculate_time(func):
   print(f'Total time {end - start}')
 
 def timer():
-  print f'Total time'
+  print ("Total time")
 timer = calculate_time(timer)

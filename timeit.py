@@ -9,5 +9,5 @@ def calculate_time(func):
 calculate_time(func)
 
 def timer()
-  func
+  return func
 timer = calculate_time(timer)

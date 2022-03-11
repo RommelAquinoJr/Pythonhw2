@@ -6,6 +6,6 @@ def calculate_time(func):
   end = time.time()
   print(f'Total time {end - start}')
 
-def timer()
+def timer():
   print f'Total time'
 timer = calculate_time(timer)

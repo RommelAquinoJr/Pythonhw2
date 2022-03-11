@@ -5,4 +5,5 @@ def calculate_time(func):
   def wrappedFunc():
     func
     end = time.time()
-  return(f'Total time {end - start}')
+    print(f'Total time {end - start}')
+  return wrappedFunc()

@@ -1,7 +1,7 @@
 def func_counter(func):
-  print("potato")
   counter.count = 0
+  func
+  
   def counter():
     counter.count +=1
-  
   return counter

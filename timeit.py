@@ -9,5 +9,6 @@ def calculate_time(func):
   return wrappedFunc()
 
 def foo():
+  print("Total time")
   
 foo = calculated_time(foo)

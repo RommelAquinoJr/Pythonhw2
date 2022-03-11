@@ -1,9 +1,10 @@
 import time
 
 def calculate_time(func):
-  start = func
-  end = func
+  start = time.time()
+  end = time.time()
   print(f'Total time {end - start}')
 
 def timer()
-  print time.time()
+  print f'Total time'
+timer = calculate_time(timer)

@@ -8,7 +8,7 @@ def sort_list(myList):
             if list[i] > list[j]:
                 temp = list[i]
                 list[i] = list[j]
-                lst[j] = temp
+                list[j] = temp
             j+=1
         i+=1
     return list

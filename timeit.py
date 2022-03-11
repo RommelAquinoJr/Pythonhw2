@@ -8,7 +8,4 @@ def calculate_time(func):
     print(f'Total time {end - start}')
   return wrappedFunc
 
-def foo():
-  print("Total time")
-  
-foo = calculated_time(foo)
+calculate_time(func)

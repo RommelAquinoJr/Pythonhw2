@@ -1,7 +1,7 @@
 import time
 
-def calculate_time(func):
+def calculate_time():
   start = time.time()
-  func
+  main()
   end = time.time()
   print(f'Total time {end - start}')

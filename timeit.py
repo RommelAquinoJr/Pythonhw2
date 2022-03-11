@@ -1,4 +1,5 @@
 import time
 
 def calculate_time():
-  return "Total time " time.time()
+  t = time.time()
+  return print(f'Total time {t}')
